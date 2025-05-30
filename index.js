@@ -21,7 +21,7 @@ async function startServer() {
     console.log("Conectado ao MongoDB Atlas");
 
     app.listen(PORT, () => {
-      console.log(`Servidor http://localhost:${PORT}`);
+      console.log(`Servidor https://engine-bench.onrender.com`);
     });
 
   } catch (err) {
